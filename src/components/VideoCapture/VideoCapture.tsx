@@ -93,10 +93,6 @@ class VideoCapture extends React.Component {
       // Set the scan region after camera enhancer has been opened.
       // this.cameraEnhancer.setScanRegion(region);
 
-      /*** Debugging scan region now showing up on iOS. ***/
-      const scanRegion = this.cameraEnhancer.getScanRegion();
-      console.log("~ scan region before: ", JSON.stringify(scanRegion, null, 2));
-
       // Pull current resolution settings after camera has opened.
       const currentCameraSettings = this.cameraEnhancer.getVideoSettings();
       console.log(currentCameraSettings);
