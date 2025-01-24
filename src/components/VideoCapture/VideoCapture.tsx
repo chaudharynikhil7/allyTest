@@ -91,22 +91,27 @@ class VideoCapture extends React.Component {
       };
 
       // Set the scan region after camera enhancer has been opened.
-      this.cameraEnhancer.setScanRegion(region);
+      // this.cameraEnhancer.setScanRegion(region);
 
       /*** Debugging scan region now showing up on iOS. ***/
       const scanRegion = this.cameraEnhancer.getScanRegion();
-      console.log("~ Current scan region object: ", JSON.stringify(scanRegion, null, 2));
+      console.log("~ scan region before: ", JSON.stringify(scanRegion, null, 2));
 
       // Pull current resolution settings after camera has opened.
       const currentCameraSettings = this.cameraEnhancer.getVideoSettings();
       console.log(currentCameraSettings);
 
-      // // Type assertion: Assert that currentCameraSettings.video has the expected structure
-      // await this.cameraEnhancer.setResolution({
-      //   width: (currentCameraSettings.video as { width: { ideal: number } }).width?.ideal,
-      //   height: (currentCameraSettings.video as { height: { ideal: number } }).height?.ideal,
-      // });
+      // Type assertion: Assert that currentCameraSettings.video has the expected structure
+      await this.cameraEnhancer.setResolution({
+        width: (currentCameraSettings.video as { width: { ideal: number } }).width?.ideal,
+        height: (currentCameraSettings.video as { height: { ideal: number } }).height?.ideal,
+      });
 
+      this.cameraEnhancer.setScanRegion(region);
+
+      /*** Debugging scan region now showing up on iOS. ***/
+      const scanRegion2 = this.cameraEnhancer.getScanRegion();
+      console.log("~scan region after changing resolution", JSON.stringify(scanRegion2, null, 2));
       cameraView.setScanLaserVisible(true);
 
       if (this.isDestroyed) {
