@@ -1,0 +1,85 @@
+/*!
+ * Dynamsoft JavaScript Library
+ * @product Dynamsoft Camera Enhancer JS Edition
+ * @website https://www.dynamsoft.com
+ * @copyright Copyright 2024, Dynamsoft Corporation
+ * @author Dynamsoft
+ * @version 4.1.1
+ * @fileoverview Dynamsoft JavaScript Library for Camera Enhancer
+ * More info on DCE JS: https://www.dynamsoft.com/camera-enhancer/docs/programming/javascript/?ver=latest
+ */
+
+/*!
+ * Dynamsoft JavaScript Library
+ * @product Dynamsoft Capture Vision Router JS Edition
+ * @website http://www.dynamsoft.com
+ * @copyright Copyright 2024, Dynamsoft Corporation
+ * @author Dynamsoft
+ * @version "2.4.33"
+ * @fileoverview Dynamsoft JavaScript Library for Capture Vision
+ * More info on cvr JS: https://www.dynamsoft.com/capture-vision/docs/web/programming/javascript/api-reference/capture-vision-router/capture-vision-router-module.html
+ */
+
+/*!
+ * Dynamsoft JavaScript Library
+ * @product Dynamsoft License JS Edition
+ * @website https://www.dynamsoft.com
+ * @copyright Copyright 2024, Dynamsoft Corporation
+ * @author Dynamsoft
+ * @version 3.4.31
+ * @fileoverview Dynamsoft JavaScript Library for Core
+ * More info DL JS: https://www.dynamsoft.com/capture-vision/docs/web/programming/javascript/api-reference/license/license-module.html
+ */
+
+/*!
+* Dynamsoft JavaScript Library
+* @product Dynamsoft Barcode Reader JS Edition
+* @website http://www.dynamsoft.com
+* @copyright Copyright 2024, Dynamsoft Corporation
+* @author Dynamsoft
+* @version 10.4.31
+* @fileoverview Dynamsoft JavaScript Library for Barcode Reader
+* More info on dbr JS: https://www.dynamsoft.com/barcode-reader/docs/web/programming/javascript/
+*/
+
+/*! eruda v3.4.1 https://eruda.liriliri.io/ */
+
+/**
+ * @license React
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
