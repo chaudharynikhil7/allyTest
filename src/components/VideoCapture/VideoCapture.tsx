@@ -101,11 +101,11 @@ class VideoCapture extends React.Component {
       const currentCameraSettings = this.cameraEnhancer.getVideoSettings();
       console.log(currentCameraSettings);
 
-      // Type assertion: Assert that currentCameraSettings.video has the expected structure
-      await this.cameraEnhancer.setResolution({
-        width: (currentCameraSettings.video as { width: { ideal: number } }).width?.ideal,
-        height: (currentCameraSettings.video as { height: { ideal: number } }).height?.ideal,
-      });
+      // // Type assertion: Assert that currentCameraSettings.video has the expected structure
+      // await this.cameraEnhancer.setResolution({
+      //   width: (currentCameraSettings.video as { width: { ideal: number } }).width?.ideal,
+      //   height: (currentCameraSettings.video as { height: { ideal: number } }).height?.ideal,
+      // });
 
       cameraView.setScanLaserVisible(true);
 
